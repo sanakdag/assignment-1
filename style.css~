@@ -1,3 +1,13 @@
-<head>
-<link rel="styleshee" type="text/css" href="style.css">
-</head>
+body {
+        background-color: orange;
+}
+
+h1 {
+        border-style: solid;
+        border-width: 1px;
+        font-style: oblique;
+        font-size: 30px;
+        font-family: "Comic Sans MS";
+}
+h2 {
+        font-size: 20px;
