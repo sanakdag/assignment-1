@@ -3,7 +3,8 @@
 
 
 <head>
-<title> San Resume </title>
+        <meta charset = "UTF-8">        
+        <title> San Resume </title>
 </head>
 
 
@@ -14,29 +15,29 @@
 
 <body>
 
-<p> Education </p>
-<ul>
-	<li> Tufts University </li>	
-		<li> Majors: Political Science, Computer Science -- GPA 3.65 </li>
-	<li> Bogazici University </li>
-		<li> Relevant coursework: Adv. Turkish Language, Comparative Mid. East Politics, Modern Turkish Society and Culture </li>
-	<li> Bergen County Technical Schools </li>
-		<li> Major: Law and Justice -- GPA 3.803 </li>
-</ul>
-<p> Work and Volunteer Experience </p>
-<ul>
-	<li> Resident Assistant at Office of Residential Life and Learning Tufts University </li>
-</ul>
+        <p> Education </p>
+        <ul>
+	        <li> Tufts University </li>	
+		        <li> Majors: Political Science, Computer Science -- GPA 3.65 </li>
+	        <li> Bogazici University </li>
+		        <li> Relevant coursework: Adv. Turkish Language, Comparative Mid. East Politics, Modern Turkish Society and Culture </li>
+	        <li> Bergen County Technical Schools </li>
+		        <li> Major: Law and Justice -- GPA 3.803 </li>
+        </ul>
+        <p> Work and Volunteer Experience </p>
+        <ul>
+	        <li> Resident Assistant at Office of Residential Life and Learning Tufts University </li>
+        </ul>
 
-<p> Skills </p>
-<ul> 
-        <li> Programming Languages: C, C++, HTML </li>
-</ul>
+        <p> Skills </p>
+        <ul> 
+                <li> Programming Languages: C, C++, HTML </li>
+        </ul>
 
-<p> Activities </p> 
-<ul>
-        <li> JumboCode Project: WMFO Front End team. Done using Typescript
-             superscript of Javascript </li>
-</ul>
+        <p> Activities </p> 
+        <ul>
+                <li> JumboCode Project: WMFO Front End team. Done using Typescript
+                     superscript of Javascript </li>
+        </ul>
 
 </body>
