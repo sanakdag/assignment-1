@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title> Fail </title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+	<h1 id="title">Fail</h1>
+	
+	<video src="https://www.cs.tufts.edu/comp/20/fail.mp4" id="video" > </video>
+
+	<p> <button type="button" onclick="video.play();"> Play </button>
+
+	<button type="button" onclick="video.pause();"> Pause </button>	
+
+	<button type="button" onclick="video.currentTime = video.currentTime-1;"> Rewind 1 </button>
+
+	<button type="button" onclick="video.currentTime = video.currentTime+1;"> Forward 1 </button>
+	</p>
+
+	<div id="captions"> </div>
+	<div id="Image"></div>
+
+<script type="text/javascript">
+		
+		var video = document.getElementById("video");
+		var caption = document.getElementById("captions");
+		video.addEventListener("timeupdate", function(){
+
+			if (video.currentTime < 9){
+				caption.innerHTML = "<p>Enjoy!</p>";
+			} else if (video.currentTime > 9 && video.currentTime < 11){
+					caption.innerHTML = "<p> You've got me feelin' emotions </p>";
+			} else if (video.currentTime >= 12 && video.currentTime < 15){
+					caption.innerHTML ="<p>Deeper than I've ever dreamed of</p>";
+			} else if (video.currentTime > 17 && video.currentTime < 21){
+					caption.innerHTML = "<p> You've got me feelin' emotions</p>";
+			} else if (video.currentTime > 21 && video.currentTime < 23){
+					caption.innerHTML = "<p> Higher than the heavens above </p>"
+			} else if (video.currentTime > 25 && video.currentTime < 30){
+					caption.innerHTML = "<p> I feel good, I feel nice </p>"
+			} else if (video.currentTime > 30 && video.currentTime < 33){
+					caption.innerHTML = "<p> I've never felt so satisfied </p>"
+			} else if (video.currentTime > 33 && video.currentTime < 37){
+					caption.innerHTML = "<p> I'm in love, I'm alive </p>"
+			} else if (video.currentTime > 38 && video.currentTime < 44){
+					caption.innerHTML = "<p> Intoxicated, flyin' high </p>"
+			} else if (video.currentTime > 44 && video.currentTime < 45){
+					caption.innerHTML = "<p> Feels like a dream </p>"
+			} else if (video.currentTime > 46 && video.currentTime < 49){
+					caption.innerHTML = "<p> When you touch me tenderly </p>"
+			} else if (video.currentTime > 50 && video.currentTime < 53){
+					caption.innerHTML = "<p> I don't know if it's real </p>"
+			} else if (video.currentTime > 54.5 && video.currentTime < 60){
+					caption.innerHTML = "<p> But I like the way I feel inside </p>"
+			} else if (video.currentTime > 59 && video.currentTime < 63){
+					caption.innerHTML = "<p> You've got me feelin' emotions </p>"
+			} else if (video.currentTime > 63 && video.currentTime < 65){
+					caption.innerHTML = "<p> Deeper than I've ever dreamed of </p>"
+			} else if (video.currentTime > 63 && video.currentTime < 66){
+					caption.innerHTML = "<p> You've got me feelin' emotions </p>"
+			} else if (video.currentTime > 68 && video.currentTime < 72){
+					caption.innerHTML = "<p> You've got me feelin' emotions </p>"	
+			} else if (video.currentTime > 72 && video.currentTime < 74){
+					caption.innerHTML = "<p> Higher than the heavens above </p>"	
+			} else if (video.currentTime > 75.5){
+				caption.innerHTML = "<p> fin. </p>"
+			} else {
+					caption.innerHTML = ""
+			}
+
+		}, false);
+</script>
+</body>
+</html>
